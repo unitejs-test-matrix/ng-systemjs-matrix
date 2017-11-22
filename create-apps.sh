@@ -4,7 +4,7 @@ set -e
 #
 # Angular SystemJS
 #
-node unitejs/cli/bin/unite configure --packageName=ng-sjs-js-jas-pro --title="Angular SystemJS JavaScript" --sourceLanguage=JavaScript --moduleType=SystemJS --bundler=SystemJSBuilder --unitTestRunner=Karma --unitTestFramework=Jasmine --unitTestEngine=PhantomJS --e2eTestRunner=Protractor --e2eTestFramework=Jasmine --linter=ESLint --license=MIT --packageManager=Npm --cssPre=Css --cssPost=PostCss --cssLinter=StyleLint --appFramework=Angular --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-pro
+node unitejs/cli/bin/unite configure --packageName=ng-sjs-js-jas-pro --title="Angular SystemJS JavaScript" --sourceLanguage=JavaScript --moduleType=SystemJS --bundler=SystemJSBuilder --unitTestRunner=Karma --unitTestFramework=Jasmine --unitTestEngine=PhantomJS --e2eTestRunner=Protractor --e2eTestFramework=Jasmine --linter=ESLint --license=MIT --packageManager=Npm --cssPre=Css --cssPost=PostCss --cssLinter=StyleLint --documenter=ESDoc --appFramework=Angular --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-pro
 node unitejs/cli/bin/unite generate --type=class --name=MyClass --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-pro
 node unitejs/cli/bin/unite generate --type=component --name=MyComponent --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-pro
 node unitejs/cli/bin/unite generate --type=directive --name=MyDirective --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-pro
@@ -14,7 +14,7 @@ node unitejs/cli/bin/unite generate --type=module --name=MyModule --disableVersi
 node unitejs/cli/bin/unite generate --type=pipe --name=MyPipe --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-pro
 node unitejs/cli/bin/unite generate --type=service --name=MyService --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-pro
 
-node unitejs/cli/bin/unite configure --packageName=ng-sjs-js-jas-wdr --title="Angular SystemJS JavaScript" --sourceLanguage=JavaScript --moduleType=SystemJS --bundler=SystemJSBuilder --unitTestRunner=Karma --unitTestFramework=Jasmine --unitTestEngine=PhantomJS --e2eTestRunner=WebdriverIO --e2eTestFramework=Jasmine --linter=ESLint --license=MIT --packageManager=Npm --cssPre=Css --cssPost=PostCss --cssLinter=StyleLint --appFramework=Angular --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-wdr
+node unitejs/cli/bin/unite configure --packageName=ng-sjs-js-jas-wdr --title="Angular SystemJS JavaScript" --sourceLanguage=JavaScript --moduleType=SystemJS --bundler=SystemJSBuilder --unitTestRunner=Karma --unitTestFramework=Jasmine --unitTestEngine=PhantomJS --e2eTestRunner=WebdriverIO --e2eTestFramework=Jasmine --linter=ESLint --license=MIT --packageManager=Npm --cssPre=Css --cssPost=PostCss --cssLinter=StyleLint --documenter=ESDoc --appFramework=Angular --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-wdr
 node unitejs/cli/bin/unite generate --type=class --name=MyClass --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-wdr
 node unitejs/cli/bin/unite generate --type=component --name=MyComponent --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-wdr
 node unitejs/cli/bin/unite generate --type=directive --name=MyDirective --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-wdr
@@ -24,7 +24,7 @@ node unitejs/cli/bin/unite generate --type=module --name=MyModule --disableVersi
 node unitejs/cli/bin/unite generate --type=pipe --name=MyPipe --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-wdr
 node unitejs/cli/bin/unite generate --type=service --name=MyService --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-wdr
 
-node unitejs/cli/bin/unite configure --packageName=ng-sjs-js-mch-pro --title="Angular SystemJS JavaScript" --sourceLanguage=JavaScript --moduleType=SystemJS --bundler=SystemJSBuilder --unitTestRunner=Karma --unitTestFramework=MochaChai --unitTestEngine=PhantomJS --e2eTestRunner=Protractor --e2eTestFramework=MochaChai --linter=ESLint --license=MIT --packageManager=Npm --cssPre=Less --cssPost=PostCss --cssLinter=LessHint --appFramework=Angular --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-pro
+node unitejs/cli/bin/unite configure --packageName=ng-sjs-js-mch-pro --title="Angular SystemJS JavaScript" --sourceLanguage=JavaScript --moduleType=SystemJS --bundler=SystemJSBuilder --unitTestRunner=Karma --unitTestFramework=MochaChai --unitTestEngine=PhantomJS --e2eTestRunner=Protractor --e2eTestFramework=MochaChai --linter=ESLint --license=MIT --packageManager=Npm --cssPre=Less --cssPost=PostCss --cssLinter=LessHint --documenter=JSDoc --appFramework=Angular --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-pro
 node unitejs/cli/bin/unite generate --type=class --name=MyClass --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-pro
 node unitejs/cli/bin/unite generate --type=component --name=MyComponent --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-pro
 node unitejs/cli/bin/unite generate --type=directive --name=MyDirective --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-pro
@@ -34,7 +34,7 @@ node unitejs/cli/bin/unite generate --type=module --name=MyModule --disableVersi
 node unitejs/cli/bin/unite generate --type=pipe --name=MyPipe --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-pro
 node unitejs/cli/bin/unite generate --type=service --name=MyService --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-pro
 
-node unitejs/cli/bin/unite configure --packageName=ng-sjs-js-mch-wdr --title="Angular SystemJS JavaScript" --sourceLanguage=JavaScript --moduleType=SystemJS --bundler=SystemJSBuilder --unitTestRunner=Karma --unitTestFramework=MochaChai --unitTestEngine=PhantomJS --e2eTestRunner=WebdriverIO --e2eTestFramework=MochaChai --linter=ESLint --license=MIT --packageManager=Npm --cssPre=Stylus --cssPost=PostCss --cssLinter=Stylint --appFramework=Angular --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-wdr
+node unitejs/cli/bin/unite configure --packageName=ng-sjs-js-mch-wdr --title="Angular SystemJS JavaScript" --sourceLanguage=JavaScript --moduleType=SystemJS --bundler=SystemJSBuilder --unitTestRunner=Karma --unitTestFramework=MochaChai --unitTestEngine=PhantomJS --e2eTestRunner=WebdriverIO --e2eTestFramework=MochaChai --linter=ESLint --license=MIT --packageManager=Npm --cssPre=Stylus --cssPost=PostCss --cssLinter=Stylint --documenter=ESDoc --appFramework=Angular --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-wdr
 node unitejs/cli/bin/unite generate --type=class --name=MyClass --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-wdr
 node unitejs/cli/bin/unite generate --type=component --name=MyComponent --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-wdr
 node unitejs/cli/bin/unite generate --type=directive --name=MyDirective --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-wdr
@@ -44,7 +44,7 @@ node unitejs/cli/bin/unite generate --type=module --name=MyModule --disableVersi
 node unitejs/cli/bin/unite generate --type=pipe --name=MyPipe --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-wdr
 node unitejs/cli/bin/unite generate --type=service --name=MyService --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-wdr
 
-node unitejs/cli/bin/unite configure --packageName=ng-sjs-ts-jas-pro --title="Angular SystemJS TypeScript" --sourceLanguage=TypeScript --moduleType=SystemJS --bundler=SystemJSBuilder --unitTestRunner=Karma --unitTestFramework=Jasmine --unitTestEngine=PhantomJS --e2eTestRunner=Protractor --e2eTestFramework=Jasmine --linter=TSLint --license=MIT --packageManager=Npm --cssPre=Css --cssPost=None --cssLinter=StyleLint --appFramework=Angular --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-jas-pro
+node unitejs/cli/bin/unite configure --packageName=ng-sjs-ts-jas-pro --title="Angular SystemJS TypeScript" --sourceLanguage=TypeScript --moduleType=SystemJS --bundler=SystemJSBuilder --unitTestRunner=Karma --unitTestFramework=Jasmine --unitTestEngine=PhantomJS --e2eTestRunner=Protractor --e2eTestFramework=Jasmine --linter=TSLint --license=MIT --packageManager=Npm --cssPre=Css --cssPost=None --cssLinter=StyleLint --documenter=ESDoc --appFramework=Angular --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-jas-pro
 node unitejs/cli/bin/unite generate --type=class --name=MyClass --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-jas-pro
 node unitejs/cli/bin/unite generate --type=component --name=MyComponent --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-jas-pro
 node unitejs/cli/bin/unite generate --type=directive --name=MyDirective --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-jas-pro
@@ -55,7 +55,7 @@ node unitejs/cli/bin/unite generate --type=module --name=MyModule --disableVersi
 node unitejs/cli/bin/unite generate --type=pipe --name=MyPipe --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-jas-pro
 node unitejs/cli/bin/unite generate --type=service --name=MyService --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-jas-pro
 
-node unitejs/cli/bin/unite configure --packageName=ng-sjs-ts-jas-wdr --title="Angular SystemJS TypeScript" --sourceLanguage=TypeScript --moduleType=SystemJS --bundler=SystemJSBuilder --unitTestRunner=Karma --unitTestFramework=Jasmine --unitTestEngine=PhantomJS --e2eTestRunner=WebdriverIO --e2eTestFramework=Jasmine --linter=TSLint --license=MIT --packageManager=Npm --cssPre=Css --cssPost=None --cssLinter=StyleLint --appFramework=Angular --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-jas-wdr
+node unitejs/cli/bin/unite configure --packageName=ng-sjs-ts-jas-wdr --title="Angular SystemJS TypeScript" --sourceLanguage=TypeScript --moduleType=SystemJS --bundler=SystemJSBuilder --unitTestRunner=Karma --unitTestFramework=Jasmine --unitTestEngine=PhantomJS --e2eTestRunner=WebdriverIO --e2eTestFramework=Jasmine --linter=TSLint --license=MIT --packageManager=Npm --cssPre=Css --cssPost=None --cssLinter=StyleLint --documenter=ESDoc --appFramework=Angular --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-jas-wdr
 node unitejs/cli/bin/unite generate --type=class --name=MyClass --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-jas-wdr
 node unitejs/cli/bin/unite generate --type=component --name=MyComponent --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-jas-wdr
 node unitejs/cli/bin/unite generate --type=directive --name=MyDirective --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-jas-wdr
@@ -66,7 +66,7 @@ node unitejs/cli/bin/unite generate --type=module --name=MyModule --disableVersi
 node unitejs/cli/bin/unite generate --type=pipe --name=MyPipe --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-jas-wdr
 node unitejs/cli/bin/unite generate --type=service --name=MyService --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-jas-wdr
 
-node unitejs/cli/bin/unite configure --packageName=ng-sjs-ts-mch-pro --title="Angular SystemJS TypeScript" --sourceLanguage=TypeScript --moduleType=SystemJS --bundler=SystemJSBuilder --unitTestRunner=Karma --unitTestFramework=MochaChai --unitTestEngine=PhantomJS --e2eTestRunner=Protractor --e2eTestFramework=MochaChai --linter=TSLint --license=MIT --packageManager=Npm --cssPre=Less --cssPost=None --cssLinter=StyleLint --appFramework=Angular --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-mch-pro
+node unitejs/cli/bin/unite configure --packageName=ng-sjs-ts-mch-pro --title="Angular SystemJS TypeScript" --sourceLanguage=TypeScript --moduleType=SystemJS --bundler=SystemJSBuilder --unitTestRunner=Karma --unitTestFramework=MochaChai --unitTestEngine=PhantomJS --e2eTestRunner=Protractor --e2eTestFramework=MochaChai --linter=TSLint --license=MIT --packageManager=Npm --cssPre=Less --cssPost=None --cssLinter=StyleLint --documenter=ESDoc --appFramework=Angular --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-mch-pro
 node unitejs/cli/bin/unite generate --type=class --name=MyClass --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-mch-pro
 node unitejs/cli/bin/unite generate --type=component --name=MyComponent --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-mch-pro
 node unitejs/cli/bin/unite generate --type=directive --name=MyDirective --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-mch-pro
@@ -77,7 +77,7 @@ node unitejs/cli/bin/unite generate --type=module --name=MyModule --disableVersi
 node unitejs/cli/bin/unite generate --type=pipe --name=MyPipe --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-mch-pro
 node unitejs/cli/bin/unite generate --type=service --name=MyService --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-mch-pro
 
-node unitejs/cli/bin/unite configure --packageName=ng-sjs-ts-mch-wdr --title="Angular SystemJS TypeScript" --sourceLanguage=TypeScript --moduleType=SystemJS --bundler=SystemJSBuilder --unitTestRunner=Karma --unitTestFramework=MochaChai --unitTestEngine=PhantomJS --e2eTestRunner=WebdriverIO --e2eTestFramework=MochaChai --linter=TSLint --license=MIT --packageManager=Npm --cssPre=Stylus --cssPost=None --cssLinter=Stylint --appFramework=Angular --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-mch-wdr
+node unitejs/cli/bin/unite configure --packageName=ng-sjs-ts-mch-wdr --title="Angular SystemJS TypeScript" --sourceLanguage=TypeScript --moduleType=SystemJS --bundler=SystemJSBuilder --unitTestRunner=Karma --unitTestFramework=MochaChai --unitTestEngine=PhantomJS --e2eTestRunner=WebdriverIO --e2eTestFramework=MochaChai --linter=TSLint --license=MIT --packageManager=Npm --cssPre=Stylus --cssPost=None --cssLinter=Stylint --documenter=TypeDoc --appFramework=Angular --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-mch-wdr
 node unitejs/cli/bin/unite generate --type=class --name=MyClass --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-mch-wdr
 node unitejs/cli/bin/unite generate --type=component --name=MyComponent --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-mch-wdr
 node unitejs/cli/bin/unite generate --type=directive --name=MyDirective --disableVersionCheck --outputDirectory=./apps/ng-sjs-ts-mch-wdr
