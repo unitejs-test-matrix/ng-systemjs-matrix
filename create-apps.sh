@@ -10,6 +10,7 @@ node unitejs/cli/bin/unite generate --type=component --name=MyComponent --disabl
 node unitejs/cli/bin/unite generate --type=directive --name=MyDirective --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-pro
 node unitejs/cli/bin/unite generate --type=enum --name=MyEnum --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-pro
 node unitejs/cli/bin/unite generate --type=guard --name=MyGuard --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-pro
+node unitejs/cli/bin/unite generate --type=interface --name=MyInterface --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-pro
 node unitejs/cli/bin/unite generate --type=module --name=MyModule --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-pro
 node unitejs/cli/bin/unite generate --type=pipe --name=MyPipe --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-pro
 node unitejs/cli/bin/unite generate --type=service --name=MyService --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-pro
@@ -20,6 +21,7 @@ node unitejs/cli/bin/unite generate --type=component --name=MyComponent --disabl
 node unitejs/cli/bin/unite generate --type=directive --name=MyDirective --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-wdr
 node unitejs/cli/bin/unite generate --type=enum --name=MyEnum --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-wdr
 node unitejs/cli/bin/unite generate --type=guard --name=MyGuard --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-wdr
+node unitejs/cli/bin/unite generate --type=interface --name=MyInterface --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-wdr
 node unitejs/cli/bin/unite generate --type=module --name=MyModule --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-wdr
 node unitejs/cli/bin/unite generate --type=pipe --name=MyPipe --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-wdr
 node unitejs/cli/bin/unite generate --type=service --name=MyService --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-jas-wdr
@@ -30,6 +32,7 @@ node unitejs/cli/bin/unite generate --type=component --name=MyComponent --disabl
 node unitejs/cli/bin/unite generate --type=directive --name=MyDirective --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-pro
 node unitejs/cli/bin/unite generate --type=enum --name=MyEnum --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-pro
 node unitejs/cli/bin/unite generate --type=guard --name=MyGuard --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-pro
+node unitejs/cli/bin/unite generate --type=interface --name=MyInterface --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-pro
 node unitejs/cli/bin/unite generate --type=module --name=MyModule --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-pro
 node unitejs/cli/bin/unite generate --type=pipe --name=MyPipe --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-pro
 node unitejs/cli/bin/unite generate --type=service --name=MyService --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-pro
@@ -40,6 +43,7 @@ node unitejs/cli/bin/unite generate --type=component --name=MyComponent --disabl
 node unitejs/cli/bin/unite generate --type=directive --name=MyDirective --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-wdr
 node unitejs/cli/bin/unite generate --type=enum --name=MyEnum --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-wdr
 node unitejs/cli/bin/unite generate --type=guard --name=MyGuard --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-wdr
+node unitejs/cli/bin/unite generate --type=interface --name=MyInterface --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-wdr
 node unitejs/cli/bin/unite generate --type=module --name=MyModule --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-wdr
 node unitejs/cli/bin/unite generate --type=pipe --name=MyPipe --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-wdr
 node unitejs/cli/bin/unite generate --type=service --name=MyService --disableVersionCheck --outputDirectory=./apps/ng-sjs-js-mch-wdr
